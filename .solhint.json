@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "compiler-version": ["error", "^0.8.0"],
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "indent": ["error", 4],
+    "event-name-camelcase": "warn",
+    "func-name-mixedcase": "warn",
+    "no-complex-fallback": "error",
+    "no-empty-blocks": "warn",
+    "payable-fallback": "error",
+    "reason-string": ["warn", { "maxLength": 64 }]
+  }
+}
